@@ -15,7 +15,7 @@ def c1Create(data):
         c1.update(set(da))
     return list(c1)
 
-# 支持度计数
+# 从candidate(候选num项集)创建frequence(频繁num项集)  
 def frequenceCreate(candidate, data, k):
     result = []    
     support_count = []
